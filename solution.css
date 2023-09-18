@@ -21,7 +21,7 @@ body {
 }
 
 .section {
-  width: 900px;
+  width: 1440px;
 }
 
 .header {
@@ -108,6 +108,31 @@ input[type="button"] {
 
 }
 
+.cards-area .section{
+  display: flex;
+  flex-flow:column nowrap;
+  align-items: center;
+}
+
 .cards-area .slogan {
   font-size: 36px;
+  padding:0.5em;
+}
+
+.cards-area .cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:40px;
+}
+
+.cards-area .card{
+  width: 230px;
+  text-align: center;
+  flex:0;
+}
+
+.card img{
+  border:3px solid #3882f6;
+  border-radius: 15px;
 }
