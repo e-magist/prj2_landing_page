@@ -1,0 +1,178 @@
+#clrs {
+  color: #1f2937;
+  color: #3882f6;
+  color: #f9faf8;
+  color: #e5e7eb;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+div {
+  border: 0px solid red;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.section {
+  width: 1440px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.hero .subtext{
+  color:#e5e7eb;
+  font-size: 18px;;
+}
+
+.hero .section {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+
+.hero .section img {
+  max-height: 300px;
+  padding:30px;
+}
+
+.slogan {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero .hero-left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.hero .hero-right {
+  display: flex;
+  flex-flow: center;
+  justify-content: center;
+  flex: 1;
+}
+
+input[type="button"] {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.cards-area .section{
+  display: flex;
+  flex-flow:column nowrap;
+  align-items: center;
+}
+
+.cards-area .slogan {
+  font-size: 36px;
+  padding:0.5em;
+}
+
+.cards-area .cards{
+  display: flex;
+  flex-flow: row wrap;
+  gap:50px;
+}
+
+.cards-area .card{
+  width: 200px;
+  text-align: center;
+  color: #1f2937;
+  flex:0;
+}
+
+.card img{
+  border:5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.quote{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote .section{
+  display:flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.quote .quote-text{
+  width: 70%;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  margin:30px;
+}
+
+.quote .quote-author{
+  display:flex;
+  justify-content: flex-end;
+  width: 70%;
+  font-weight:bold;
+  font-style: italic;
+  font-size: 24px;
+  margin:10px;
+}
+
+
