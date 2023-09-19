@@ -10,11 +10,6 @@
 
 }
 
-div{
-  /* debugging */
-  border: 0px solid red;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -130,7 +125,7 @@ input[type="button"] {
 
 .cards-area .slogan {
   font-size: 36px;
-  padding:0.5em;
+  padding:1em;
   color: #1f2937;
   font-weight: bold;
 }
@@ -231,4 +226,21 @@ input[type="button"] {
   font-weight: 800;
 }
 
+.footer{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.footer .section {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100px;
+
+}
 
