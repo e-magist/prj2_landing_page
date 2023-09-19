@@ -10,7 +10,8 @@
 
 }
 
-div {
+div{
+  /* debugging */
   border: 0px solid red;
 }
 
@@ -81,10 +82,9 @@ body {
 
 .hero .section img {
   max-height: 300px;
-  padding:30px;
 }
 
-.slogan {
+.hero .slogan {
   font-size: 48px;
   font-weight: bold;
 }
@@ -101,6 +101,7 @@ body {
   flex-flow: center;
   justify-content: center;
   flex: 1;
+  margin-bottom: 30px;
 }
 
 input[type="button"] {
@@ -113,28 +114,39 @@ input[type="button"] {
   border-radius: 5px;
 }
 
+.cards-area{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
 .cards-area .section{
   display: flex;
   flex-flow:column nowrap;
+  justify-content: center;
   align-items: center;
 }
 
 .cards-area .slogan {
   font-size: 36px;
   padding:0.5em;
+  color: #1f2937;
+  font-weight: bold;
 }
 
 .cards-area .cards{
+  width: 100px;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
+  justify-content: center;
   gap:50px;
 }
 
 .cards-area .card{
-  width: 200px;
+  width: 300px;
   text-align: center;
   color: #1f2937;
-  flex:0;
 }
 
 .card img{
@@ -155,6 +167,7 @@ input[type="button"] {
   display:flex;
   flex-flow: column nowrap;
   align-items: center;
+  padding: 100px;
 }
 
 .quote .quote-text{
@@ -162,7 +175,7 @@ input[type="button"] {
   font-weight: 300;
   font-style: italic;
   font-size: 36px;
-  margin:30px;
+
 }
 
 .quote .quote-author{
@@ -173,6 +186,49 @@ input[type="button"] {
   font-style: italic;
   font-size: 24px;
   margin:10px;
+}
+
+.banner{
+  width:100%;
+  display:flex;
+  justify-content: center;
+
+}
+.banner .section{
+  display:flex;
+  flex-direction: row;
+  padding:100px;
+}
+
+.banner-wrapper{
+  display: flex;
+  flex-flow:row nowrap;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding:30px;
+  border-radius:10px;
+}
+
+.banner-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+}
+
+.banner-right input[type="button"]{
+  border: 2px solid #f9faf8;
+}
+
+.banner-left{
+  display: flex;
+  flex-flow: column nowrap;
+  flex:2;
+}
+
+.banner-left .slogan{
+  font-size: 36px;
+  font-weight: 800;
 }
 
 
