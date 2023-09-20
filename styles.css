@@ -3,11 +3,11 @@
   color: #3882f6;
   color: #f9faf8;
   color: #e5e7eb;
+  color:black;
 }
 
 *{
   box-sizing: border-box;
-
 }
 
 body {
@@ -75,9 +75,6 @@ body {
   align-items: space-between;
 }
 
-.hero .section img {
-  max-height: 300px;
-}
 
 .hero .slogan {
   font-size: 48px;
